@@ -48,7 +48,7 @@ public class TestLambda {
 	}
 	
 	//需求：用于处理字符串
-	public String strHandler(String str, com.com.atguigu.java8.MyFunction mf){
+	public String strHandler(String str, MyFunction mf){
 		return mf.getValue(str);
 	}
 	
@@ -60,7 +60,7 @@ public class TestLambda {
 	}
 	
 	//需求：对于两个 Long 型数据进行处理
-	public void op(Long l1, Long l2, com.com.atguigu.java8.MyFunction2<Long, Long> mf){
+	public void op(Long l1, Long l2, MyFunction2<Long, Long> mf){
 		System.out.println(mf.getValue(l1, l2));
 	}
 
